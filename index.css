@@ -1,0 +1,287 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3BE32D;
+    padding: 15px 50px;
+    border-bottom: 4px solid black;
+}
+nav h1{
+    font-size: xx-large;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 75px;
+    font-size: x-large;
+    color: white;
+}
+.div-ul{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.div-ul button{
+    padding: 10px 50px 10px 40px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: larger;
+    color: #3BE32D;
+    background-color: black;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 173px; */
+    background: radial-gradient(81.61% 128.42% at 24.93% 36.78%, #3BE32D 18.39%, #51734E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.digi-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 60px;
+}
+.digi{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    /* padding-left: 50px; */
+}
+.digi h2{
+    font-size: medium;
+}
+.digi h1{
+    font-size: 50px;
+}
+.get button{
+    padding: 10px 95px;
+    border-radius: 20px;
+    font-size: larger;
+    color: #3BE32D;
+    background-color: black;
+}
+.pexel img{
+    display: flex;
+    height: 75vh;
+    /* padding-left: 280px; */
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9; 
+    gap: 55px;
+    padding: 60px;
+}
+.sec3 h1{
+    font-size: 60px;
+}
+.h3-button{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.h3-button h3{
+    font-size: large;
+    color: #6C5B5B;
+    font-weight: 200;
+}
+.button-arrow{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 55%;
+    padding: 10px 40px;
+}
+.button-arrow button{
+    border: none;
+    background-color: transparent;
+    font-size: x-large;
+    align-items: center;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+    gap: 65px;
+    background-color: black;
+
+}
+.img-all{
+    display: flex;
+    gap: 30px;
+}
+.our h1{
+    font-size: 60px;
+    color: #3BE32D;
+}
+.positive img, .omni img, .exhi img{
+    background-color: #3BE32D;;
+    border-radius: 50%;
+    height: 10vh;
+    border: none;
+    padding: 20px;
+    
+
+}
+
+.img1, .img2, .img3{
+    border: 3px solid #3BE32D;;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.img-all h1, p{
+    color: white;
+}
+.img-all button{
+    border: none;
+    background-color: #3BE32D;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+.h1-p{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.positive img{
+    width: 38%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 950px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .div-ul{
+        display: none;
+    }
+    .sec1{
+        display: flex;
+        justify-content: center;
+    }
+    .sec2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45px;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .digi h1{
+        width: 100%;
+        text-align: center;
+    }
+    .digi h2{
+        width: 125%;
+        font-size: larger;
+        padding-left: 40px;
+    }
+    .digi-btn{
+        flex-direction: column;
+        gap: 17px;
+        padding-left: 0px;
+        align-items: center;
+    }
+    .get{
+        justify-content: center;
+        align-items: center;
+    }
+    .pexel img{
+        height: 30vh;
+
+    }
+    .digi{
+        align-items: center;
+        justify-content: center;
+    }
+    .sec3{
+        /* text-align: center; */
+        /* justify-content: center; */
+        
+    } 
+    .h3{
+        font-size: x-large;
+        width: 290px;
+    }
+    .button-arrow{
+        gap: 13px;
+        padding: 7px 35px;
+        width: 90%;
+    }
+    .button-arrow button{
+        font-size: medium;
+    }
+
+    .sec4{
+        flex-direction: column;
+    }
+    .img-all{
+        flex-direction: column;
+    }
+    .img1, .img2, .img3{
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .positive img{
+        width: 20vw;
+        border-radius: 50%;
+    }
+    .omni img, .exhi img{
+        border-radius: 50%;
+    }
+    
+       
+    
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+}
+
+
