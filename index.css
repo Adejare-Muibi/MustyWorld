@@ -11,6 +11,7 @@ main{
 }
 .sec1{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #3BE32D;
     padding: 15px 50px;
@@ -19,6 +20,19 @@ main{
 nav h1{
     font-size: xx-large;
 }
+.login{
+    display: none;
+}
+.login button{
+    padding: 5px 20px 5px 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: medium;
+    color: #3BE32D;
+    background-color: black;
+    border: none;
+
+}
 ul{
     display: flex;
     list-style: none;
@@ -26,11 +40,16 @@ ul{
     font-size: x-large;
     color: white;
 }
+.ul-2{
+    display: none;
+  
+}
 .div-ul{
     display: flex;
     gap: 100px;
     align-items: center;
 }
+
 .div-ul button{
     padding: 10px 50px 10px 40px;
     border-bottom-left-radius: 50px;
@@ -38,6 +57,18 @@ ul{
     font-size: larger;
     color: #3BE32D;
     background-color: black;
+    border: none;
+}
+
+.line{
+    height: 2px;
+    width: 24px;
+    margin: 5px;
+    /* padding: 10px 0px; */
+    background-color:  white;
+}
+.menu{
+    display: none;
 }
 .sec2{
     display: flex;
@@ -73,7 +104,9 @@ ul{
     font-size: larger;
     color: #3BE32D;
     background-color: black;
+    border: none;
 }
+
 .pexel img{
     display: flex;
     height: 75vh;
@@ -127,7 +160,6 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     padding: 60px;
     gap: 65px;
     background-color: black;
@@ -147,8 +179,12 @@ ul{
     height: 10vh;
     border: none;
     padding: 20px;
-    
-
+}
+.positive{
+    width: 85%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .img1, .img2, .img3{
@@ -157,6 +193,8 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 17px;
+    align-items: center;
+    text-align: center;
 }
 .img-all h1, p{
     color: white;
@@ -175,7 +213,20 @@ ul{
 .positive img{
     width: 38%;
 }
+.myline{
+    /* color: #3BE32D; */
+    background-color: #3BE32D;
+    height: 0.7vh;
+    border: none;
+    transform: rotate(3deg);
+}
 
+button:hover{
+    color: red;
+    cursor: pointer;
+    transition: 4s;
+    background-color: blue;
+}
 
 
 
@@ -187,13 +238,46 @@ ul{
         flex-direction: column;
         width: 100%;
     }
+
     .div-ul{
         display: none;
     }
+    .menu{
+        display: block;   
+    }
+    /* .menu:hover{
+        animation: 5s;
+    } */
+    .login{
+        display: block;
+    }
+    .ul-2{
+        /* display: block; */
+        display: flex;
+        /* padding-left: 38%; */
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+        padding: 20px 0;
+        display: none;
+        align-items: center;
+        background-color: #3BE32D;
+        color: white;
+    
+    }
+    .ul-2 li:hover{
+            color: red;
+            transition: 3s ease-in-out;
+        }
+    
+    .toggle{
+        display: flex;
+    }
     .sec1{
         display: flex;
-        justify-content: center;
+        gap: 30px;
     }
+
     .sec2{
         flex-direction: column;
         justify-content: center;
@@ -266,20 +350,10 @@ ul{
     .omni img, .exhi img{
         border-radius: 50%;
     }
-    
-       
-    
-        
-
-
-    
-
-
-
-
-
-
-
+    .our h1{
+       font-size: 42px;
+    }
+  
 
 
 }
