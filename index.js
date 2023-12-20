@@ -1,4 +1,4 @@
 function clickMe(){
-    var dropdown = document.querySelector(".ul-2");
+    var dropdown = document.querySelector(".tog");
     dropdown.classList.toggle("toggle");
 }

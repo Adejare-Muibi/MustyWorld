@@ -24,7 +24,7 @@ nav h1{
     display: none;
 }
 .login button{
-    padding: 5px 20px 5px 20px;
+    padding: 10px 40px 10px 30px;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     font-size: medium;
@@ -245,23 +245,29 @@ button:hover{
     .menu{
         display: block;   
     }
-    /* .menu:hover{
-        animation: 5s;
-    } */
+    .tog{
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #3BE32D;
+        padding: 30px 0px;
+        display: none;
+    }
+    
+
     .login{
-        display: block;
+        align-items: center;
+        display: flex;
     }
     .ul-2{
-        /* display: block; */
+        display: block;
         display: flex;
-        /* padding-left: 38%; */
         text-align: center;
         gap: 20px;
         flex-direction: column;
-        padding: 20px 0;
-        display: none;
         align-items: center;
-        background-color: #3BE32D;
         color: white;
     
     }
@@ -275,7 +281,9 @@ button:hover{
     }
     .sec1{
         display: flex;
-        gap: 30px;
+        gap: 10px;
+        padding: 15px;
+        justify-content: space-around;
     }
 
     .sec2{
